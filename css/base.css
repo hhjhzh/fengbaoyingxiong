@@ -1,0 +1,17 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::after{
+    content:'';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+.clearfix{
+    /*兼容IE6*/
+    *zoom:1;
+}
